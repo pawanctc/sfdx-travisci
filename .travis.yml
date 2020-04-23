@@ -6,7 +6,7 @@ env:
 - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
 
 before_install:
-- export JWTKEYFILE="C:\Users\Pawan Bajoria\Documents\workspace-sts\sfdx-travisci\assets\server.key"
+- export JWTKEYFILE="https://github.com/pawanctc/sfdx-travisci/blob/master/assets/server.key"
 - export SFDX_AUTOUPDATE_DISABLE=false
 - export SFDX_USE_GENERIC_UNIX_KEYCHAIN=true
 - export SFDX_DOMAIN_RETRY=300
